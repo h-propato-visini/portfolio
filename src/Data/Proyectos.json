@@ -1,0 +1,26 @@
+[
+    {
+        "title": "COURFLIX",
+        "description": "Simulando Netflix, trabajo final del curso de FRONTEND. Se utiliza HTML5, CSS3, SASS, REACT JS y NODE JS.",
+        "code":"CÓDIGO GITHUB",
+        "url": "Courflix"
+    },
+    {
+        "title": "MERCADO LIBRE",
+        "description": "Simulando Mercado Libre. Se utiliza HTML5, CSS3, SASS, REACT JS, REACT SLICK",
+        "code":"CÓDIGO GITHUB",
+        "url": "Proyecto-Mercado-Libre"
+    },
+    {
+        "title": "ALTA, BAJA Y MODIFICACION",
+        "description": "Aplicación para cargar y modificar usuarios. Se utiliza HTML5, CSS3, SASS, REACT JS y NODE JS.",
+        "code":"CÓDIGO GITHUB",
+        "url": "ABM-react"
+    },
+    {
+        "title": "STARTUP",
+        "description": "Buscador de startup. Se utiliza HTML5, CSS3, SASS, REACT JS.",
+        "code":"CÓDIGO GITHUB",
+        "url": "startup-argentina"
+    }
+]

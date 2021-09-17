@@ -1,0 +1,32 @@
+[
+    {
+        "Puesto": "Gerente Comercial",
+        "Empresa": "Electro Iluminate SRL",
+        "Año": "2018 - Actualidad",
+        "image": "https://scontent.faep33-1.fna.fbcdn.net/v/t1.6435-9/61848268_621151995038871_3068199618354348032_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeFyrpQumnSRwpayJMlJB009gYeAUZcJwBqBh4BRlwnAGtnrRsJoTV7uh97svgKQOC4&_nc_ohc=hzvMTveVqUEAX9EMA5A&_nc_ht=scontent.faep33-1.fna&oh=93087d01a29fbdbd5e2b8b59a69f6f7e&oe=61673845"
+    },
+    {
+        "Puesto": "Gerente General",
+        "Empresa": "Procan Materiales Eléctricos SRL",
+        "Año": "2018 - Actualidad",
+        "image": "https://procan.com.ar/wp-content/uploads/2021/03/cropped-LOGO-ALTERENO-3.png"
+    },
+    {
+        "Puesto": "Gerente Comercial",
+        "Empresa": "Procan Materiales Eléctricos SRL",
+        "Año": "2016 - 2018",
+        "image": "https://procan.com.ar/wp-content/uploads/2021/03/cropped-LOGO-ALTERENO-3.png"
+    },
+    {
+        "Puesto": "Logística y Distribución",
+        "Empresa": "Procan Materiales Eléctricos SRL",
+        "Año": "2012 - 2016",
+        "image": "https://procan.com.ar/wp-content/uploads/2021/03/cropped-LOGO-ALTERENO-3.png"
+    },
+    {
+        "Puesto": "Representante de Ventas y Cobranzas",
+        "Empresa": "Procan Materiales Eléctricos SRL",
+        "Año": "2007 - 2012",
+        "image": "https://procan.com.ar/wp-content/uploads/2021/03/cropped-LOGO-ALTERENO-3.png"
+    }
+]
