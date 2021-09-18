@@ -4,6 +4,17 @@ body {
     background-color: rgb(205, 205, 207);
 }
 
+footer {
+    width: 100%;
+    height: 50px;
+    background-color: $mainColor;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
 .navbar {
     display: flex;
     align-items: center;
@@ -16,6 +27,10 @@ body {
     position: fixed;
     top: 0;
     border-bottom: 1px solid black;
+
+    .ocultarDesk {
+        display: none
+    }
 
     .navbarList {
         width: 50%;
@@ -62,6 +77,10 @@ body {
 
     .socialNetwork {
         font-size: 40px;
+
+        a {
+            color: black
+        }
         
         .icon {
             margin: 0 15px;
@@ -74,13 +93,14 @@ body {
 }
 
 .mainContainer {
+    margin: auto;
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
     justify-content: space-around;
 
     h4 {
-        margin: 20px;
+        margin: 10px 45px;
         font-size: 30px;
     }
 
@@ -97,13 +117,13 @@ body {
         .card {
             background-color: white;
             border-radius: 5px;
-            width: 30%;
+            width: 26%;
             height: 400px;
             display: flex;
             flex-direction: column;
             align-items: center;
             margin-bottom: 25px;
-            box-shadow: 10px 5px rgb(153, 152, 152);
+
 
             .imgContainer {
                 width: 100%;
@@ -115,6 +135,7 @@ body {
 
                 img {
                     width: 60%;
+                    margin-top: 70px;
                 }
             }
 
@@ -207,7 +228,6 @@ body {
         .stackContainer {
             background-color: white;
             border-radius: 5px;
-            box-shadow: 10px 5px rgb(153, 152, 152);
             display: flex;
             justify-content: space-around;
             flex-wrap: wrap;
@@ -226,7 +246,6 @@ body {
         .languageContainer {
                 background-color: white;
                 border-radius: 5px;
-                box-shadow: 10px 5px rgb(153, 152, 152);
 
             .language {
                 display: flex;
@@ -250,7 +269,7 @@ body {
     }
 }
 
-@media (max-width: 992px) {
+@media (max-width: 1080px) {
     .profileContainer {
         width: 75%;
     
@@ -301,10 +320,70 @@ body {
     }
 }
 
-@media (max-width: 730px) {
+@media (max-width: 750px) {
     .navbar {
         font-size: 20px;
         z-index: 3;
+
+        .ocultarDesk {
+            width: 100%;
+            display: flex;
+            height: 50px;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+
+            .ocultar {
+                display: none;
+            }
+
+            .mostrar {
+                width: 200px;
+                display: flex;
+                background-color: white;
+                position: absolute;
+                left: 0;
+                top: 50px;
+                padding: 10px;
+                font-size: 25px;
+                border: 1px solid gray;
+                justify-content: center;
+
+                a {
+                    text-decoration-line: none;
+                    color: $mainColor;
+                }
+
+                li {
+                    margin: 10px 10px 10px -30px;
+                    list-style: none;
+                }
+
+                li:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            a {
+                text-decoration-line: none;
+                color: white;
+            }
+
+            h1 {
+                font-size: 30px;
+                cursor: pointer;
+            }
+            .menuIcon {
+                position: absolute;
+                left: 15px;
+                font-size: 40px;
+                cursor: pointer;
+            }
+        }
+
+        .ocultarMob {
+            display: none;
+        }
 
         .navbarList {
             width: 100%;
@@ -314,9 +393,14 @@ body {
     .profileContainer {
         width: 100%;
         font-size: 20px;
+        padding-top: 20px;
+
+        .ocultarMob {
+            display: none;
+        }
     
         .profileImg {
-            width: 50%;
+            width: 80%;
         }
     
         .socialNetwork {
@@ -370,6 +454,10 @@ body {
                 .code {
                     font-size: 25px;
                 }
+            }
+
+            a:hover {
+                transform: scale(1, 1);
             }
         }
     }
